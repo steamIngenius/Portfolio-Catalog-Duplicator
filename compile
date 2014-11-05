@@ -1,0 +1,3 @@
+#!/bin/bash
+
+javac -classpath dam-client.jar:. Base64.java Duplicate.java
