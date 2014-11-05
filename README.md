@@ -32,14 +32,14 @@ to another catalog.
 CURRENT FEATURES:
 -----------------
 
-[x] Present a list of catalogs for a user to select from.
++Present a list of catalogs for a user to select from.
 
 PLANNED FEATURES:
 -----------------
 
-[ ] If the process fails for a record, tell us which one!
-[ ] Copy all record metadata
-[ ] Copy galleries
+-If the process fails for a record, tell us which one!
+-Copy all record metadata
+-Copy galleries
 
 NOTE:
 -----
