@@ -19,9 +19,9 @@ Run: java -classpath dam-client.jar:. Duplicate
 SCRIPTS:
 --------
 
-Compile and run: ./go
-Compile only: ./compile
-Run only: ./run
+* Compile and run: ./go
+* Compile only: ./compile
+* Run only: ./run
 
 GOAL:
 -----
