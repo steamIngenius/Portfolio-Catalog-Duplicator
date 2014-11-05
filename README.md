@@ -2,6 +2,7 @@ Portfolio-Catalog-Duplicator
 ============================
 
 Operation: 
+----------
 
 Configure the server information and administrator login below. The program will connect to the
 server and present the user with a list of catalogs. Select the origin catalog first and the destination
@@ -16,27 +17,32 @@ Compile: javac -classpath dam-client.jar:. Base64.java Duplicate.java
 Run: java -classpath dam-client.jar:. Duplicate
 
 SCRIPTS:
+--------
 
 Compile and run: ./go
 Compile only: ./compile
 Run only: ./run
 
 GOAL:
+-----
 
 To create a tool that can duplicate the contents of a catalog by copying all the records
 to another catalog.
 
 CURRENT FEATURES:
+-----------------
 
 [x] Present a list of catalogs for a user to select from.
 
 PLANNED FEATURES:
+-----------------
 
 [ ] If the process fails for a record, tell us which one!
 [ ] Copy all record metadata
 [ ] Copy galleries
 
 NOTE:
+-----
 
 This program actually works! It is also very hacky and the code is very ugly.
 Hopefully this will change over time as I work on it and learn more about Portfolio's API.
