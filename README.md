@@ -13,8 +13,8 @@ After the records are 'copied' you'll still need to regen thumbs/previews and pu
 NONE OF THE METADATA FROM THE ORIGIN CATALOG IS COPIED - Anything that is not embedded in the file
 will not make the transition.
 
-Compile: javac -classpath dam-client.jar:. Base64.java Duplicate.java
-Run: java -classpath dam-client.jar:. Duplicate
+* Compile: `javac -classpath dam-client.jar:. Base64.java Duplicate.java`
+* Run: `java -classpath dam-client.jar:. Duplicate`
 
 SCRIPTS:
 --------
